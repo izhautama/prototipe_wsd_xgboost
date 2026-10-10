@@ -1,0 +1,372 @@
+{
+  "FarmerAge": {
+    "kelompok": "Profil Petani",
+    "label": "Usia petani",
+    "tipe": "numerik",
+    "satuan": "tahun"
+  },
+  "FarmerEducation": {
+    "kelompok": "Profil Petani",
+    "label": "Pendidikan terakhir",
+    "tipe": "kategori",
+    "opsi": {
+      "0": "Tidak sekolah",
+      "1": "SD",
+      "2": "SMP",
+      "3": "SMA (kelas 10)",
+      "4": "SMA/SMK lulus",
+      "5": "Diploma",
+      "6": "Sarjana (S1)",
+      "7": "Magister (S2)"
+    }
+  },
+  "InvolveWithShrimpFarming": {
+    "kelompok": "Profil Petani",
+    "label": "Lama pengalaman budidaya udang",
+    "tipe": "numerik",
+    "satuan": "tahun"
+  },
+  "PriorLandUse": {
+    "kelompok": "Karakteristik Tapak",
+    "label": "Penggunaan lahan sebelumnya",
+    "tipe": "kategori",
+    "opsi": {
+      "0": "Lahan basah / lainnya",
+      "1": "Sawah / lahan pertanian"
+    }
+  },
+  "Area_ha": {
+    "kelompok": "Karakteristik Tapak",
+    "label": "Luas kolam produksi",
+    "tipe": "numerik",
+    "satuan": "ha"
+  },
+  "SoilType": {
+    "kelompok": "Karakteristik Tapak",
+    "label": "Jenis tanah dominan",
+    "tipe": "kategori",
+    "opsi": {
+      "1": "Liat (clay)",
+      "2": "Lempung (loam)",
+      "3": "Berpasir"
+    }
+  },
+  "CanalDepth_ft": {
+    "kelompok": "Karakteristik Tapak",
+    "label": "Rata-rata kedalaman kanal",
+    "tipe": "numerik",
+    "satuan": "kaki (ft)"
+  },
+  "GherDepth_ft": {
+    "kelompok": "Karakteristik Tapak",
+    "label": "Rata-rata kedalaman tambak",
+    "tipe": "numerik",
+    "satuan": "kaki (ft)"
+  },
+  "Operator": {
+    "kelompok": "Manajemen Tambak",
+    "label": "Tambak dikelola langsung oleh pemilik",
+    "tipe": "biner",
+    "opsi": {
+      "0": "Tidak",
+      "1": "Ya"
+    }
+  },
+  "FertilizerUse": {
+    "kelompok": "Manajemen Tambak",
+    "label": "Penggunaan pupuk",
+    "tipe": "kategori",
+    "opsi": {
+      "1": "Campuran organik & anorganik",
+      "2": "Organik",
+      "3": "Anorganik",
+      "4": "Tidak memakai"
+    }
+  },
+  "ChemicalUsePondPreparation": {
+    "kelompok": "Manajemen Tambak",
+    "label": "Bahan pada persiapan kolam",
+    "tipe": "kategori",
+    "opsi": {
+      "0": "Perlakuan terapeutik",
+      "1": "Perlakuan kimia"
+    }
+  },
+  "ChemicalUseWaterTreatment": {
+    "kelompok": "Manajemen Tambak",
+    "label": "Bahan pada perlakuan air",
+    "tipe": "kategori",
+    "opsi": {
+      "0": "Perlakuan terapeutik",
+      "1": "Perlakuan kimia"
+    }
+  },
+  "Aerator": {
+    "kelompok": "Manajemen Tambak",
+    "label": "Menggunakan aerator",
+    "tipe": "biner",
+    "opsi": {
+      "0": "Tidak",
+      "1": "Ya"
+    }
+  },
+  "GherDryAfterHarvest": {
+    "kelompok": "Manajemen Tambak",
+    "label": "Tambak dikeringkan setelah panen",
+    "tipe": "biner",
+    "opsi": {
+      "0": "Tidak",
+      "1": "Ya"
+    }
+  },
+  "SludgeRemovalMethods": {
+    "kelompok": "Manajemen Tambak",
+    "label": "Metode pembuangan lumpur",
+    "tipe": "kategori",
+    "opsi": {
+      "1": "Dibilas, lumpur dibuang ke luar tambak",
+      "2": "Dibilas, lumpur di dalam & luar tambak",
+      "3": "Dibilas, lumpur ditimbun di area tambak",
+      "5": "Tidak dibuang"
+    }
+  },
+  "SludgeRemovalInterval": {
+    "kelompok": "Manajemen Tambak",
+    "label": "Interval pembuangan lumpur",
+    "tipe": "kategori",
+    "opsi": {
+      "1": "Tidak pernah",
+      "2": "Setiap 1 tahun",
+      "3": "Setiap ≥ 2 tahun"
+    }
+  },
+  "MaintainAndRepairDikes": {
+    "kelompok": "Manajemen Tambak",
+    "label": "Perbaikan pematang",
+    "tipe": "kategori",
+    "opsi": {
+      "1": "Memakai tanah dari lahan bera",
+      "2": "Memakai tanah dasar kolam sendiri",
+      "4": "Tidak diperbaiki / memakai tanah tambak lain"
+    }
+  },
+  "PeriodOfFallow": {
+    "kelompok": "Manajemen Tambak",
+    "label": "Masa istirahat (bera) kolam",
+    "tipe": "numerik",
+    "satuan": "hari"
+  },
+  "WaterSource_DirectNatural": {
+    "kelompok": "Manajemen Air",
+    "label": "Sumber air alami langsung",
+    "tipe": "kategori",
+    "opsi": {
+      "0": "Bukan sumber alami langsung",
+      "1": "Langsung dari laut/sungai (pasang)",
+      "2": "Sumur bor",
+      "3": "Air hujan"
+    }
+  },
+  "WaterSource_IndirectNatural": {
+    "kelompok": "Manajemen Air",
+    "label": "Sumber air alami tidak langsung",
+    "tipe": "kategori",
+    "opsi": {
+      "0": "Bukan sumber tidak langsung",
+      "1": "Air yang sudah diolah",
+      "2": "Kanal dari laut/sungai",
+      "4": "Melewati tambak lain"
+    }
+  },
+  "WaterComingViaOtherFarms": {
+    "kelompok": "Manajemen Air",
+    "label": "Air masuk melewati tambak lain",
+    "tipe": "biner",
+    "opsi": {
+      "0": "Tidak",
+      "1": "Ya"
+    }
+  },
+  "Reservoir": {
+    "kelompok": "Manajemen Air",
+    "label": "Memiliki kolam tandon (reservoir)",
+    "tipe": "biner",
+    "opsi": {
+      "0": "Tidak",
+      "1": "Ya"
+    }
+  },
+  "WaterExchangeFrequency": {
+    "kelompok": "Manajemen Air",
+    "label": "Frekuensi pergantian air",
+    "tipe": "kategori",
+    "opsi": {
+      "1": "Tidak pernah",
+      "2": "> 42 hari sekali",
+      "3": "29–42 hari sekali",
+      "4": "7–28 hari sekali"
+    }
+  },
+  "InletOutlet": {
+    "kelompok": "Manajemen Air",
+    "label": "Saluran masuk & keluar air sama",
+    "tipe": "biner",
+    "opsi": {
+      "0": "Tidak",
+      "1": "Ya"
+    }
+  },
+  "CultureMethod": {
+    "kelompok": "Manajemen Budidaya",
+    "label": "Metode budidaya",
+    "tipe": "kategori",
+    "opsi": {
+      "1": "Polikultur (udang + ikan)",
+      "3": "Polikultur (udang + udang galah)",
+      "4": "Monokultur"
+    }
+  },
+  "SourceOfFingerling": {
+    "kelompok": "Manajemen Budidaya",
+    "label": "Sumber benur (PL)",
+    "tipe": "kategori",
+    "opsi": {
+      "1": "Alam (liar)",
+      "2": "Hatchery swasta terdaftar",
+      "3": "Campuran / hatchery tidak terdaftar"
+    }
+  },
+  "StockingDensity_PL40m2": {
+    "kelompok": "Manajemen Budidaya",
+    "label": "Padat tebar",
+    "tipe": "numerik",
+    "satuan": "ekor PL per 40 m²"
+  },
+  "StockingAge_Days": {
+    "kelompok": "Manajemen Budidaya",
+    "label": "Umur benur saat tebar",
+    "tipe": "numerik",
+    "satuan": "hari"
+  },
+  "PLQuality": {
+    "kelompok": "Manajemen Budidaya",
+    "label": "Kualitas benur",
+    "tipe": "kategori",
+    "opsi": {
+      "1": "Tinggi",
+      "2": "Sedang",
+      "3": "Rendah"
+    }
+  },
+  "CropRotation": {
+    "kelompok": "Manajemen Budidaya",
+    "label": "Melakukan rotasi tanaman/komoditas",
+    "tipe": "biner",
+    "opsi": {
+      "0": "Tidak",
+      "1": "Ya"
+    }
+  },
+  "CulturePractice": {
+    "kelompok": "Manajemen Budidaya",
+    "label": "Sistem budidaya",
+    "tipe": "kategori",
+    "opsi": {
+      "0": "Semi-intensif",
+      "1": "Ekstensif (tradisional)"
+    }
+  },
+  "FeedType": {
+    "kelompok": "Manajemen Pakan",
+    "label": "Jenis pakan",
+    "tipe": "kategori",
+    "opsi": {
+      "1": "Tanpa pakan tambahan",
+      "2": "Pelet komersial",
+      "3": "Campuran pelet buatan & komersial",
+      "4": "Pelet buatan sendiri",
+      "5": "Pakan hidup"
+    }
+  },
+  "FeedAdditives": {
+    "kelompok": "Manajemen Pakan",
+    "label": "Menggunakan aditif pakan",
+    "tipe": "biner",
+    "opsi": {
+      "0": "Tidak",
+      "1": "Ya"
+    }
+  },
+  "BirdScare": {
+    "kelompok": "Biosekuriti",
+    "label": "Jaring/pengusir burung",
+    "tipe": "biner",
+    "opsi": {
+      "0": "Tidak",
+      "1": "Ya"
+    }
+  },
+  "CrabFence": {
+    "kelompok": "Biosekuriti",
+    "label": "Pagar penghalang kepiting",
+    "tipe": "biner",
+    "opsi": {
+      "0": "Tidak",
+      "1": "Ya"
+    }
+  },
+  "FootBath": {
+    "kelompok": "Biosekuriti",
+    "label": "Bak celup kaki (foot bath)",
+    "tipe": "biner",
+    "opsi": {
+      "0": "Tidak",
+      "1": "Ya"
+    }
+  },
+  "LimitedAccess": {
+    "kelompok": "Biosekuriti",
+    "label": "Akses orang ke tambak dibatasi",
+    "tipe": "biner",
+    "opsi": {
+      "0": "Tidak",
+      "1": "Ya"
+    }
+  },
+  "SameEquipmentForWholeCultureArea": {
+    "kelompok": "Biosekuriti",
+    "label": "Peralatan sama untuk semua kolam",
+    "tipe": "biner",
+    "opsi": {
+      "0": "Tidak",
+      "1": "Ya"
+    }
+  },
+  "Temperature": {
+    "kelompok": "Kualitas Air",
+    "label": "Suhu air",
+    "tipe": "numerik",
+    "satuan": "°C",
+    "opsional": true
+  },
+  "pH": {
+    "kelompok": "Kualitas Air",
+    "label": "pH air",
+    "tipe": "numerik",
+    "satuan": "",
+    "opsional": true
+  },
+  "Salinity": {
+    "kelompok": "Kualitas Air",
+    "label": "Salinitas",
+    "tipe": "numerik",
+    "satuan": "ppt",
+    "opsional": true
+  },
+  "PreviousPrevalence": {
+    "kelompok": "Riwayat Penyakit",
+    "label": "Prevalensi WSD siklus sebelumnya",
+    "tipe": "numerik",
+    "satuan": "%"
+  }
+}

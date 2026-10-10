@@ -1,0 +1,12 @@
+,nilai
+colsample_bytree,0.8317508845540279
+gamma,0.025307919231093434
+learning_rate,0.017279572377986996
+max_depth,3
+min_child_weight,2
+n_estimators,359
+reg_alpha,4.4842414298624735
+reg_lambda,9.944574626108206
+scale_pos_weight,0.6174
+subsample,0.8848716885390143
+seleksi_threshold,median

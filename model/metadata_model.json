@@ -1,0 +1,321 @@
+{
+  "skenario_terpilih": "B",
+  "fitur_input": [
+    "FarmerAge",
+    "FarmerEducation",
+    "InvolveWithShrimpFarming",
+    "PriorLandUse",
+    "Area_ha",
+    "SoilType",
+    "CanalDepth_ft",
+    "GherDepth_ft",
+    "Operator",
+    "FertilizerUse",
+    "ChemicalUsePondPreparation",
+    "ChemicalUseWaterTreatment",
+    "Aerator",
+    "GherDryAfterHarvest",
+    "SludgeRemovalMethods",
+    "SludgeRemovalInterval",
+    "MaintainAndRepairDikes",
+    "PeriodOfFallow",
+    "WaterSource_DirectNatural",
+    "WaterSource_IndirectNatural",
+    "WaterComingViaOtherFarms",
+    "Reservoir",
+    "WaterExchangeFrequency",
+    "InletOutlet",
+    "CultureMethod",
+    "SourceOfFingerling",
+    "StockingDensity_PL40m2",
+    "StockingAge_Days",
+    "PLQuality",
+    "CropRotation",
+    "CulturePractice",
+    "FeedType",
+    "FeedAdditives",
+    "BirdScare",
+    "CrabFence",
+    "FootBath",
+    "LimitedAccess",
+    "SameEquipmentForWholeCultureArea",
+    "Temperature",
+    "pH",
+    "Salinity"
+  ],
+  "fitur_terpilih": [
+    "FarmerEducation",
+    "InvolveWithShrimpFarming",
+    "Area_ha",
+    "SoilType",
+    "CanalDepth_ft",
+    "GherDepth_ft",
+    "ChemicalUsePondPreparation",
+    "PeriodOfFallow",
+    "WaterSource_DirectNatural",
+    "Reservoir",
+    "WaterExchangeFrequency",
+    "InletOutlet",
+    "CultureMethod",
+    "SourceOfFingerling",
+    "StockingAge_Days",
+    "CropRotation",
+    "FeedType",
+    "LimitedAccess",
+    "Temperature",
+    "pH",
+    "Salinity"
+  ],
+  "rentang_data_latih": {
+    "FarmerAge": {
+      "min": 17.0,
+      "max": 80.0,
+      "median": 40.0
+    },
+    "InvolveWithShrimpFarming": {
+      "min": 1.0,
+      "max": 45.0,
+      "median": 15.0
+    },
+    "Area_ha": {
+      "min": 0.012145748987854251,
+      "max": 60.121457489878544,
+      "median": 0.4757085020242915
+    },
+    "CanalDepth_ft": {
+      "min": 0.0,
+      "max": 42.0,
+      "median": 4.0
+    },
+    "GherDepth_ft": {
+      "min": 1.0,
+      "max": 8.0,
+      "median": 2.0
+    },
+    "PeriodOfFallow": {
+      "min": 30.0,
+      "max": 180.0,
+      "median": 45.0
+    },
+    "StockingDensity_PL40m2": {
+      "min": 20.0,
+      "max": 1000.0,
+      "median": 165.5
+    },
+    "StockingAge_Days": {
+      "min": 3.0,
+      "max": 45.0,
+      "median": 12.0
+    },
+    "Temperature": {
+      "min": 23.0,
+      "max": 37.0,
+      "median": 29.0
+    },
+    "pH": {
+      "min": 4.0,
+      "max": 11.0,
+      "median": 7.8
+    },
+    "Salinity": {
+      "min": 2.0,
+      "max": 28.0,
+      "median": 11.0
+    }
+  },
+  "ambang": {
+    "sedang": 0.4,
+    "tinggi": 0.6
+  },
+  "ringkasan_cv": {
+    "A": {
+      "cv_accuracy_mean": 0.6617354196301564,
+      "cv_accuracy_std": 0.05469708116627144,
+      "cv_precision_mean": 0.7728851540616246,
+      "cv_precision_std": 0.0565538934694897,
+      "cv_recall_mean": 0.6434782608695653,
+      "cv_recall_std": 0.06389973242043072,
+      "cv_f1_mean": 0.7006553911205075,
+      "cv_f1_std": 0.05251495404916613,
+      "cv_f1_macro_mean": 0.6550399030238843,
+      "cv_f1_macro_std": 0.05464058736789062,
+      "cv_roc_auc_mean": 0.7075776397515529,
+      "cv_roc_auc_std": 0.06978824054649667,
+      "latih_f1_macro_mean": 0.75432349513998,
+      "gap_overfitting": 0.09928359211609572
+    },
+    "B": {
+      "cv_accuracy_mean": 0.6827880512091038,
+      "cv_accuracy_std": 0.02635228717362027,
+      "cv_precision_mean": 0.7911445279866334,
+      "cv_precision_std": 0.010245420027907029,
+      "cv_recall_mean": 0.6608695652173914,
+      "cv_recall_std": 0.042599821613620456,
+      "cv_f1_mean": 0.7197022489705417,
+      "cv_f1_std": 0.0291619655807158,
+      "cv_f1_macro_mean": 0.6768297341109393,
+      "cv_f1_macro_std": 0.024500144167689544,
+      "cv_roc_auc_mean": 0.6781780538302277,
+      "cv_roc_auc_std": 0.048539108738584046,
+      "latih_f1_macro_mean": 0.7021037491517519,
+      "gap_overfitting": 0.025274015040812614
+    }
+  },
+  "metrik_uji": {
+    "A": {
+      "accuracy": 0.6595744680851063,
+      "precision": 0.76,
+      "recall": 0.6551724137931034,
+      "f1": 0.7037037037037037,
+      "f1_macro": 0.6518518518518519,
+      "roc_auc": 0.6360153256704981,
+      "TP": 19,
+      "TN": 12,
+      "FP": 6,
+      "FN": 10
+    },
+    "B": {
+      "accuracy": 0.6808510638297872,
+      "precision": 0.75,
+      "recall": 0.7241379310344828,
+      "f1": 0.7368421052631579,
+      "f1_macro": 0.6657183499288762,
+      "roc_auc": 0.6494252873563218,
+      "TP": 21,
+      "TN": 11,
+      "FP": 7,
+      "FN": 8
+    },
+    "Baseline": {
+      "accuracy": 0.6170212765957447,
+      "precision": 0.6170212765957447,
+      "recall": 1.0,
+      "f1": 0.7631578947368421,
+      "f1_macro": 0.3815789473684211,
+      "roc_auc": 0.5,
+      "TP": 29,
+      "TN": 0,
+      "FP": 18,
+      "FN": 0
+    }
+  },
+  "validasi_spasial": [
+    {
+      "wilayah_uji": "Bagerhat",
+      "n_uji": 26,
+      "accuracy": 0.6923076923076923,
+      "precision": 0.8421052631578947,
+      "recall": 0.7619047619047619,
+      "f1": 0.8,
+      "f1_macro": 0.5666666666666667,
+      "roc_auc": 0.5142857142857142,
+      "TP": 16,
+      "TN": 2,
+      "FP": 3,
+      "FN": 5
+    },
+    {
+      "wilayah_uji": "Khulna",
+      "n_uji": 150,
+      "accuracy": 0.5266666666666666,
+      "precision": 0.5266666666666666,
+      "recall": 1.0,
+      "f1": 0.6899563318777293,
+      "f1_macro": 0.34497816593886466,
+      "roc_auc": 0.5,
+      "TP": 79,
+      "TN": 0,
+      "FP": 71,
+      "FN": 0
+    },
+    {
+      "wilayah_uji": "Satkhira",
+      "n_uji": 57,
+      "accuracy": 0.543859649122807,
+      "precision": 0.8461538461538461,
+      "recall": 0.5,
+      "f1": 0.6285714285714286,
+      "f1_macro": 0.5188311688311689,
+      "roc_auc": 0.5996503496503497,
+      "TP": 22,
+      "TN": 9,
+      "FP": 4,
+      "FN": 22
+    }
+  ],
+  "kepentingan_shap": [
+    {
+      "fitur": "Frekuensi pergantian air",
+      "mean_abs_shap": 0.1999884843826294
+    },
+    {
+      "fitur": "Suhu air",
+      "mean_abs_shap": 0.17108160257339478
+    },
+    {
+      "fitur": "Saluran masuk & keluar air sama",
+      "mean_abs_shap": 0.015406611375510693
+    },
+    {
+      "fitur": "Salinitas",
+      "mean_abs_shap": 0.007878086529672146
+    },
+    {
+      "fitur": "Masa istirahat (bera) kolam",
+      "mean_abs_shap": 0.006091910880059004
+    },
+    {
+      "fitur": "Rata-rata kedalaman kanal",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "fitur": "Jenis tanah dominan",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "fitur": "Luas kolam produksi",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "fitur": "Lama pengalaman budidaya udang",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "fitur": "Pendidikan terakhir",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "fitur": "Bahan pada persiapan kolam",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "fitur": "Sumber air alami langsung",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "fitur": "Rata-rata kedalaman tambak",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "fitur": "Metode budidaya",
+      "mean_abs_shap": 0.0
+    },
+    {
+      "fitur": "Memiliki kolam tandon (reservoir)",
+      "mean_abs_shap": 0.0
+    }
+  ],
+  "jumlah_data": {
+    "total": 233,
+    "latih": 186
+  },
+  "versi": {
+    "python": "3.14.7",
+    "xgboost": "3.4.1",
+    "scikit_learn": "1.9.1",
+    "shap": "0.53.0",
+    "pandas": "3.0.6"
+  },
+  "dilatih_pada": "2026-10-10T16:20:46",
+  "sumber_data": "Hasan & Haque (2020), Data in Brief – tambak Penaeus monodon, Khulna/Bagerhat/Satkhira, Bangladesh"
+}
